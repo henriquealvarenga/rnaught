@@ -1,6 +1,7 @@
 # app.R
 library(shiny)
 library(ggplot2)
+library(munsell)
 
 # ---- Helper: formato brasileiro (milhar=".", decimal=",") -------------------
 fmt_br <- function(x, digits = 2, tol = 1e-9) {
