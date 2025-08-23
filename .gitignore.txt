@@ -1,0 +1,12 @@
+# Arquivos de histórico e cache do R
+.Rhistory
+.RData
+.Ruserdata
+
+# Configurações do RStudio
+.Rproj.user/
+*.Rproj
+
+# Ambiente virtual do renv
+renv/library/
+renv/staging/
