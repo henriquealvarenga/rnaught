@@ -10,3 +10,4 @@
 # Ambiente virtual do renv
 renv/library/
 renv/staging/
+.DS_Store
