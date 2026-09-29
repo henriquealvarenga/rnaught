@@ -17,7 +17,11 @@ fmt_br <- function(x, digits = 2, tol = 1e-9) {
 
 # ---- UI ---------------------------------------------------------------------
 ui <- fluidPage(
-  tags$h2(HTML("Comparação de Cenários com diferentes valores de R<sub>0</sub> (R-naught)")),
+  title = "Simulador de Epidemias — comparação de cenários com diferentes valores de R₀",
+  tags$h2("Simulador de Epidemias — comparação de cenários com diferentes valores de R₀"),
+  # Data da publicação original: fixa, não deve ser atualizada em revisões
+  tags$p(class = "text-muted",
+         "Publicado em ", tags$time(datetime = "2025-08-23", "23 de agosto de 2025")),
   sidebarLayout(
     sidebarPanel(
       h4("Parâmetros Gerais"),

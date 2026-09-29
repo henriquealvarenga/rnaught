@@ -1,4 +1,6 @@
-# Simulador Interativo de R₀ — Evolução de Casos
+# Simulador de Epidemias — comparação de cenários com diferentes valores de R₀
+
+*Publicado em 23 de agosto de 2025.*
 
 Este projeto apresenta um **aplicativo em R Shiny** exportado com **Shinylive**, que permite simular e visualizar a evolução de casos em diferentes cenários epidemiológicos.  
 Com ele, é possível comparar valores distintos de R₀ e ciclos de transmissão, observando como pequenas variações podem impactar drasticamente a curva de crescimento de uma epidemia.
